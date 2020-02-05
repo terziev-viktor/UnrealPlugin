@@ -3,12 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
 #include "Warrior.h"
 #include "Army.generated.h"
 
-UCLASS()
-class TOPDOWNARPG_API AArmy : public AActor
+UCLASS(Blueprintable)
+class AArmy : public ACharacter
 {
 	GENERATED_BODY()
 	
@@ -16,16 +15,27 @@ public:
 	// Sets default values for this actor's properties
 	AArmy();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	virtual void Tick(float Delta) override;
+
+	UPROPERTY(EditAnywhere)
 	TArray<TSubclassOf<AWarrior>> WarriorTemplates;
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere)
 	TArray<AWarrior*> Warriors;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	class UStaticMeshComponent* StaticMeshComponent;
+	class UDecalComponent* GetCursorToWorld() { return CursorToWorld; }
+
+	const size_t GetIndexNextToSpawn() const { return IndexNextToSpawn; }
+
+	void IncrementIndexNextToSpawn() { ++IndexNextToSpawn; }
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+private:
+	size_t IndexNextToSpawn = 0;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	class UDecalComponent* CursorToWorld;
 };

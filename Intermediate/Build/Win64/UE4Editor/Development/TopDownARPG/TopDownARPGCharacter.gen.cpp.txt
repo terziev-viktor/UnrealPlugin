@@ -1,0 +1,22 @@
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Development\TopDownARPG\Definitions.TopDownARPG.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Source\TopDownARPG/Characters/TopDownARPGCharacter.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Source\TopDownARPG\Abilities/Ability.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Inc\TopDownARPG\Ability.generated.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Source\TopDownARPG\DataTables/TopDownARPGCharacterStruct.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/UserDefinedStruct.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\UserDefinedStruct.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Inc\TopDownARPG\TopDownARPGCharacterStruct.generated.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Inc\TopDownARPG\TopDownARPGCharacter.generated.h

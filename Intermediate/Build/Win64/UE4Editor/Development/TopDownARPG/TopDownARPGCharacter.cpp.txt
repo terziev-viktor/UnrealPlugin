@@ -1,0 +1,59 @@
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Development\TopDownARPG\Definitions.TopDownARPG.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Source\TopDownARPG\Characters\TopDownARPGCharacter.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Source\TopDownARPG\Abilities/Ability.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Inc\TopDownARPG\Ability.generated.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Source\TopDownARPG\DataTables/TopDownARPGCharacterStruct.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/UserDefinedStruct.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\UserDefinedStruct.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/DataTable.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\DataTableUtils.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataTable.generated.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Inc\TopDownARPG\TopDownARPGCharacterStruct.generated.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Inc\TopDownARPG\TopDownARPGCharacter.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/DecalComponent.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DecalComponent.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementComponent.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationAvoidanceTypes.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationAvoidanceTypes.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\AI/RVOAvoidanceInterface.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RVOAvoidanceInterface.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/PawnMovementComponent.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/NavMovementComponent.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/Navigation/PathFollowingAgentInterface.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PathFollowingAgentInterface.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PawnMovementComponent.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Interfaces/NetworkPredictionInterface.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetworkPredictionInterface.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayFunctionLibrary.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayTypes.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayTypes.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\HeadMountedDisplay\Public\IIdentifiableXRDevice.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\IIdentifiableXRDevice.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayFunctionLibrary.generated.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Source\TopDownARPG\TopDownARPG.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Source\TopDownARPG\GameModes/TopDownARPGGameMode.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Inc\TopDownARPG\TopDownARPGGameMode.generated.h

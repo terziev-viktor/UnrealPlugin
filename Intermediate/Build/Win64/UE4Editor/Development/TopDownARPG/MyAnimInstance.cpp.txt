@@ -1,0 +1,3 @@
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Development\TopDownARPG\Definitions.TopDownARPG.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Source\TopDownARPG\Animations\MyAnimInstance.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Inc\TopDownARPG\MyAnimInstance.generated.h

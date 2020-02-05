@@ -17,36 +17,15 @@ UStrategyComponent::UStrategyComponent()
 
 AWarrior* UStrategyComponent::Decide(TArray<AWarrior*>& Friendly, TArray<AWarrior*>& Enemy)
 {
-	AWarrior* Me = Cast<AWarrior>(GetOuter());
-	this->OnDecideBlueprint(Friendly, Enemy);
-	if (Me->Class == WarriorClass::Healer)
-	{
-		if (Friendly.Num() > 0 && Me != Friendly[0])
-		{
-			return Friendly[0];
-		}
-		else if (Friendly.Num() > 1)
-		{
-			return Friendly[1];
-		}
-		else
-		{
-			return nullptr;
-		}
-	}
-	else
-	{
-		if (Enemy.Num() > 0 && Me != Enemy[0])
-		{
-			return Enemy[0];
-		}
-		else if (Enemy.Num() > 1)
-		{
-			return Enemy[1];
-		}
-		else
-		{
-			return nullptr;
-		}
-	}
+	return this->OnDecideBlueprint(Friendly, Enemy);
+}
+
+AWarrior* UStrategyComponent::DecideByEnemies(TArray<AWarrior*>& Enemy)
+{
+	return this->OnDecideByEnemiesBlueprint(Enemy);
+}
+
+AWarrior* UStrategyComponent::DecideByFriendly(TArray<AWarrior*>& Friendly)
+{
+	return this->OnDecideByFriendlyBlueprint(Friendly);
 }

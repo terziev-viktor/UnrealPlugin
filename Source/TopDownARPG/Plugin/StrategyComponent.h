@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "SharedPointer.h"
 #include "StrategyComponent.generated.h"
 
 
@@ -19,6 +20,18 @@ public:
 	UFUNCTION(BlueprintCallable)
 	virtual AWarrior* Decide(TArray<AWarrior*>& Friendly, TArray<AWarrior*>& Enemy);
 
+	UFUNCTION(BlueprintCallable)
+	virtual AWarrior* DecideByEnemies(TArray<AWarrior*>& Enemy);
+
+	UFUNCTION(BlueprintCallable)
+	virtual AWarrior* DecideByFriendly(TArray<AWarrior*>& Friendly);
+
 	UFUNCTION(BlueprintImplementableEvent)
-	AWarrior* OnDecideBlueprint(TArray<AWarrior*>& Friently, TArray<AWarrior*>& Enemy);
+	AWarrior* OnDecideBlueprint(TArray<AWarrior*>& Friendly, TArray<AWarrior*>& Enemy);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	AWarrior* OnDecideByEnemiesBlueprint(TArray<AWarrior*>& Enemy);
+
+	UFUNCTION(BlueprintImplementableEvent)
+	AWarrior* OnDecideByFriendlyBlueprint(TArray<AWarrior*>& Enemy);
 };

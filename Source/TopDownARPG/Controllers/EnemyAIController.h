@@ -10,7 +10,7 @@
  * 
  */
 UCLASS()
-class TOPDOWNARPG_API AEnemyAIController : public AAIController
+class AEnemyAIController : public AAIController
 {
 	GENERATED_BODY()
 

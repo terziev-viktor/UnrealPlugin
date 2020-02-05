@@ -29,8 +29,6 @@ public:
 
 	FORCEINLINE float GetHealth() { return Health; }
 
-
-
 	UPROPERTY()
 	TArray<UAbility*> AbilityInstances;
 private:

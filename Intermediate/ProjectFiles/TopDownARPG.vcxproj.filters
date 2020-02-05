@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TopDownARPG.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2AA39186-D555-4AC8-A23A-C758896640CE}</UniqueIdentifier>
+      <UniqueIdentifier>{F3490793-3892-49EE-BF91-EB10AF124B37}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TopDownARPG.Target.cs">
       <Filter>Source</Filter>
@@ -15,7 +15,7 @@
     <None Include="..\..\LICENSE" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F809CDCC-A9D4-4B51-8738-B3243CAD1893}</UniqueIdentifier>
+      <UniqueIdentifier>{19B894BF-14E6-49A6-BF12-6094B9F8EC09}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TopDownARPG">
-      <UniqueIdentifier>{4E54AEFB-2279-4604-B710-FB0C70B493D6}</UniqueIdentifier>
+      <UniqueIdentifier>{11D6A975-1A2C-4306-89D8-056681B50538}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TopDownARPG\TopDownARPG.Build.cs">
       <Filter>Source\TopDownARPG</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\TopDownARPG</Filter>
     </ClInclude>
     <Filter Include="Source\TopDownARPG\Abilities">
-      <UniqueIdentifier>{B27EC0CF-5ADD-4370-AAC4-D9447688900F}</UniqueIdentifier>
+      <UniqueIdentifier>{D0C57899-F49C-4364-974C-1CCEEB48FCF4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TopDownARPG\Abilities\Ability.cpp">
       <Filter>Source\TopDownARPG\Abilities</Filter>
@@ -60,7 +60,7 @@
       <Filter>Source\TopDownARPG\Abilities</Filter>
     </ClInclude>
     <Filter Include="Source\TopDownARPG\AI">
-      <UniqueIdentifier>{9386BBAB-63C2-4185-9C01-DFCC6ED67B0E}</UniqueIdentifier>
+      <UniqueIdentifier>{A14BFF01-09D6-4B6F-B9B5-922ED64268DD}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TopDownARPG\AI\BTTask_ActivateSkill.cpp">
       <Filter>Source\TopDownARPG\AI</Filter>
@@ -69,7 +69,7 @@
       <Filter>Source\TopDownARPG\AI</Filter>
     </ClInclude>
     <Filter Include="Source\TopDownARPG\Animations">
-      <UniqueIdentifier>{652FF920-B808-481E-B513-B659A4DE4E4F}</UniqueIdentifier>
+      <UniqueIdentifier>{4E0FBCC6-0AFF-4370-9B01-9440579C2EE5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TopDownARPG\Animations\MyAnimInstance.cpp">
       <Filter>Source\TopDownARPG\Animations</Filter>
@@ -78,7 +78,7 @@
       <Filter>Source\TopDownARPG\Animations</Filter>
     </ClInclude>
     <Filter Include="Source\TopDownARPG\Characters">
-      <UniqueIdentifier>{9E54BAAF-25E4-4905-A4D7-E2E2DB9CC72F}</UniqueIdentifier>
+      <UniqueIdentifier>{1B1FEB66-C755-468A-BEAC-6EF05D22ED71}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TopDownARPG\Characters\TopDownARPGCharacter.cpp">
       <Filter>Source\TopDownARPG\Characters</Filter>
@@ -87,7 +87,7 @@
       <Filter>Source\TopDownARPG\Characters</Filter>
     </ClInclude>
     <Filter Include="Source\TopDownARPG\Controllers">
-      <UniqueIdentifier>{5940F542-613D-4B90-82C5-8058C9491B84}</UniqueIdentifier>
+      <UniqueIdentifier>{98AB226D-3A3C-4EC5-8C56-A1202BEB127B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TopDownARPG\Controllers\EnemyAIController.cpp">
       <Filter>Source\TopDownARPG\Controllers</Filter>
@@ -102,13 +102,13 @@
       <Filter>Source\TopDownARPG\Controllers</Filter>
     </ClInclude>
     <Filter Include="Source\TopDownARPG\DataTables">
-      <UniqueIdentifier>{C22B9EA7-8DB4-49BA-808B-63D5CAB76CA7}</UniqueIdentifier>
+      <UniqueIdentifier>{9137A503-86FA-4ADD-A173-516985D61E67}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\TopDownARPG\DataTables\TopDownARPGCharacterStruct.h">
       <Filter>Source\TopDownARPG\DataTables</Filter>
     </ClInclude>
     <Filter Include="Source\TopDownARPG\GameModes">
-      <UniqueIdentifier>{F490B4C0-4D5C-4120-B206-ED93BEDB2D2C}</UniqueIdentifier>
+      <UniqueIdentifier>{B9E78C42-5A90-4833-8585-C3F8BE1823DC}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TopDownARPG\GameModes\TopDownARPGGameMode.cpp">
       <Filter>Source\TopDownARPG\GameModes</Filter>
@@ -117,7 +117,7 @@
       <Filter>Source\TopDownARPG\GameModes</Filter>
     </ClInclude>
     <Filter Include="Source\TopDownARPG\Projectiles">
-      <UniqueIdentifier>{C048449C-1141-4C39-809A-E8B781FF17D7}</UniqueIdentifier>
+      <UniqueIdentifier>{BEA9C068-EF87-4E6C-8166-242B15D03E0A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TopDownARPG\Projectiles\Projectile.cpp">
       <Filter>Source\TopDownARPG\Projectiles</Filter>
@@ -126,7 +126,7 @@
       <Filter>Source\TopDownARPG\Projectiles</Filter>
     </ClInclude>
     <Filter Include="Source\TopDownARPG\Triggers">
-      <UniqueIdentifier>{7D78F988-F6DA-44B6-8AA5-883C5A53C6B9}</UniqueIdentifier>
+      <UniqueIdentifier>{9BFCBC6E-322E-4986-A470-8DD3C6FBAFE5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TopDownARPG\Triggers\DamageTrap.cpp">
       <Filter>Source\TopDownARPG\Triggers</Filter>
@@ -141,7 +141,7 @@
       <Filter>Source\TopDownARPG\Triggers</Filter>
     </ClInclude>
     <Filter Include="Source\TopDownARPG\UI">
-      <UniqueIdentifier>{79306BFE-A84D-412D-81BB-57DF215D0F8D}</UniqueIdentifier>
+      <UniqueIdentifier>{27A3F92D-44AD-4722-A94B-611901DE6161}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TopDownARPG\UI\TopDownRPGHUD.cpp">
       <Filter>Source\TopDownARPG\UI</Filter>
@@ -149,5 +149,69 @@
     <ClInclude Include="..\..\Source\TopDownARPG\UI\TopDownRPGHUD.h">
       <Filter>Source\TopDownARPG\UI</Filter>
     </ClInclude>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\TopDownARPG\Plugin">
+      <UniqueIdentifier>{a00ed0a5-78bb-4134-b276-33fdd1ab9225}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TopDownARPG\Plugin\Warrior.h">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TopDownARPG\Plugin\WarriorClass.h">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TopDownARPG\Plugin\WarriorAbilityBase.h">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TopDownARPG\Plugin\StrategyComponent.h">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TopDownARPG\Plugin\Army.h">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TopDownARPG\Plugin\WarriorAIControllerBase.h">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TopDownARPG\Plugin\ArmyHUD.h">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TopDownARPG\Plugin\ArmyControllerBase.h">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TopDownARPG\Plugin\ArmyWidget.h">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TopDownARPG\Plugin\Warrior.cpp">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TopDownARPG\Plugin\WarriorClass.cpp">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TopDownARPG\Plugin\WarriorAbilityBase.cpp">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TopDownARPG\Plugin\StrategyComponent.cpp">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TopDownARPG\Plugin\Army.cpp">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TopDownARPG\Plugin\WarriorAIControllerBase.cpp">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TopDownARPG\Plugin\ArmyHUD.cpp">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TopDownARPG\Plugin\ArmyControllerBase.cpp">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TopDownARPG\Plugin\ArmyWidget.cpp">
+      <Filter>Source\TopDownARPG\Plugin</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

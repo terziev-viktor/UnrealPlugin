@@ -1,0 +1,60 @@
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Development\TopDownARPG\Definitions.TopDownARPG.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Source\TopDownARPG\AI\BTTask_ActivateSkill.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/Tasks/BTTask_BlackboardBase.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTTaskNode.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTNode.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BehaviorTreeTypes.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BehaviorTreeTypes.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BehaviorTreeComponent.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\GameplayTags\Classes\GameplayTagContainer.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags\GameplayTagContainer.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\AIModule\Classes\AITypes.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\NavigationSystem\Public\NavFilters/NavigationQueryFilter.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\NavigationSystem\Public\NavAreas/NavArea.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavAreaBase.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavAreaBase.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavArea.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationQueryFilter.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\NavigationSystem\Public\NavigationSystemTypes.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/NavigationSystemConfig.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationSystemConfig.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AITypes.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\AIModule\Classes\BrainComponent.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\AIModule\Classes\AIResourceInterface.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIResourceInterface.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BrainComponent.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BehaviorTreeComponent.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTaskOwnerInterface.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\GameplayTasks\Public\GameplayTaskTypes.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks\GameplayTaskOwnerInterface.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\AIModule\Classes\Tasks/AITask.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTask.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/WeakInterfacePtr.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks\GameplayTask.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AITask.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTNode.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTTaskNode.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTTask_BlackboardBase.generated.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Inc\TopDownARPG\BTTask_ActivateSkill.generated.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Source\TopDownARPG\Controllers/EnemyAIController.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\AIModule\Classes\AIController.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\AIModule\Classes\Navigation/PathFollowingComponent.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\NavigationSystem\Public\NavigationData.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationDataInterface.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationDataInterface.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationData.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/NavMovementComponent.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\AI/Navigation/PathFollowingAgentInterface.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PathFollowingAgentInterface.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\PathFollowingComponent.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionListenerInterface.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionListenerInterface.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\AIModule\Classes\GenericTeamAgentInterface.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\GenericTeamAgentInterface.generated.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerDebugSnapshotInterface.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Inc\TopDownARPG\EnemyAIController.generated.h

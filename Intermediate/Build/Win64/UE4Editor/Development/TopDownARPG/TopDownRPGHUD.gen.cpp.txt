@@ -1,0 +1,10 @@
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Development\TopDownARPG\Definitions.TopDownARPG.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Source\TopDownARPG/UI/TopDownRPGHUD.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+H:\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+H:\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Users\terzi\Documents\repos\UnrealPlugin\Intermediate\Build\Win64\UE4Editor\Inc\TopDownARPG\TopDownRPGHUD.generated.h
