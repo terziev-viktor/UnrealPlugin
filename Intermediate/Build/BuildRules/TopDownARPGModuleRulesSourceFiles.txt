@@ -1,3 +1,0 @@
-C:\Users\terzi\Documents\repos\UnrealPlugin\Source\TopDownARPG\TopDownARPG.Build.cs
-C:\Users\terzi\Documents\repos\UnrealPlugin\Source\TopDownARPG.Target.cs
-C:\Users\terzi\Documents\repos\UnrealPlugin\Source\TopDownARPGEditor.Target.cs
