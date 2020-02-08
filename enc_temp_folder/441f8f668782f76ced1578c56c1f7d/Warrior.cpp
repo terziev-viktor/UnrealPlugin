@@ -48,22 +48,3 @@ AWarrior* AWarrior::GetCurrentTarget()
 	bIsNewTarget = false;
 	return this->CurrentTarget;
 }
-
-void AWarrior::TakeDamage(float Amount)
-{
-	this->Health -= Amount;
-}
-
-void AWarrior::ReceiveHealing(float Amount)
-{
-	this->Health += Amount;
-	if (this->Health > this->MaxHealth)
-	{
-		this->Health = MaxHealth;
-	}
-}
-
-bool AWarrior::IsDead() const
-{
-	return Health <= 0.f;
-}

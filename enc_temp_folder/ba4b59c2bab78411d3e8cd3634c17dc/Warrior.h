@@ -70,15 +70,6 @@ public:
 
 	bool HasNewTarget() const { return bIsNewTarget; }
 
-	UFUNCTION(BlueprintCallable)
-	void TakeDamage(float Amount);
-
-	UFUNCTION(BlueprintCallable)
-	void ReceiveHealing(float Amount);
-
-	UFUNCTION(BlueprintCallable)
-	bool IsDead() const;
-
 	class AArmy* Army;
 
 	//// Called to bind functionality to input
