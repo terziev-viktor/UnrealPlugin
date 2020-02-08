@@ -26,6 +26,7 @@ public class ArmyPlugin : ModuleRules
 			new string[]
 			{
 				"Core",
+                 "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "NavigationSystem", "AIModule", "GameplayTasks", "UMG"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -38,6 +39,7 @@ public class ArmyPlugin : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
+                 "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "NavigationSystem", "AIModule", "GameplayTasks"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
