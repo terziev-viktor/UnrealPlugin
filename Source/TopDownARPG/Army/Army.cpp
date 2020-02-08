@@ -28,8 +28,6 @@ AArmy::AArmy()
 	CursorToWorld->DecalSize = FVector(16.0f, 32.0f, 32.0f);
 	CursorToWorld->SetRelativeRotation(FRotator(90.0f, 0.0f, 0.0f).Quaternion());
 
-	AutoPossessPlayer = EAutoReceiveInput::Player0;
-
 	DeltaCameraMoveDefault.X = 350.f;
 	DeltaCameraMoveDefault.Y = 350.f;
 	DeltaCameraMoveDefault.Z = 0.f;
@@ -150,11 +148,12 @@ void AArmy::SpawnWarrior(FVector Location)
 		SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
 		AWarrior* SpawnedWarrior = World->SpawnActor<AWarrior>(WarriorTemplates[IndexNextToSpawn], Location, this->GetActorRotation(), SpawnParams);
+		
 		this->IncrementIndexNextToSpawn();
 		if (IsValid(SpawnedWarrior))
 		{
+			SpawnedWarrior->Army = this;
 			Warriors.Add(SpawnedWarrior);
-
 			if (SpawnedWarrior->Class == WarriorClass::Leader)
 			{
 				IndexOfLeader = Warriors.Num() - 1;

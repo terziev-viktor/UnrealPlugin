@@ -18,6 +18,7 @@ public:
 
 	// Called every frame.
 	virtual void Tick(float DeltaSeconds) override;
+
 	virtual void BeginPlay() override;
 
 	/** Returns TopDownCameraComponent subobject **/
@@ -28,8 +29,6 @@ public:
 	FORCEINLINE class UDecalComponent* GetCursorToWorld() { return CursorToWorld; }
 
 	FORCEINLINE float GetHealth() { return Health; }
-
-
 
 	UPROPERTY()
 	TArray<UAbility*> AbilityInstances;

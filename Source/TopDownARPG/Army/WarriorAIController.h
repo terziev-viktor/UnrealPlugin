@@ -15,8 +15,24 @@ class TOPDOWNARPG_API AWarriorAIController : public AAIController
 	GENERATED_BODY()
 
 public:
+	AWarriorAIController();
+
 	void ActivateAbility(int Index, class AWarrior* Target);
 	
+	virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Army")
+	TSubclassOf<class UStrategyComponent> AltStrategy;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Army")
+	TSubclassOf<UStrategyComponent> Strategy;
+
+	UFUNCTION(BlueprintCallable)
+	void SwapStrategies();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float MinDistanceToTarget = 120.f;
+
 private:
 	virtual void OnPossess(APawn* Pawn) override;
 
@@ -29,4 +45,5 @@ private:
 	UPROPERTY(EditDefaultsOnly)
 	class UBehaviorTreeComponent* BehaviourTreeComponent;
 
+	void SetMovementToCurrentTarget();
 };

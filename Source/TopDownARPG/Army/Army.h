@@ -78,7 +78,6 @@ private:
 
 	FVector DeltaCameraMove;
 	
-
 	FTimerManager* TimerManager = nullptr;
 	FTimerHandle TimerHandle;
 

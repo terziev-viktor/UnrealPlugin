@@ -16,7 +16,7 @@ public:
 	UStrategyComponent();
 
 	UFUNCTION(BlueprintCallable)
-	virtual class AWarrior* Decide(TArray<AWarrior*>& Friendly, TArray<AWarrior*>& Enemy);
+	virtual class AWarrior* Decide(TArray<AWarrior*>& Friendly,  TArray<AWarrior*>& Enemy);
 
 	UFUNCTION(BlueprintCallable)
 	virtual AWarrior* DecideByEnemies(TArray<AWarrior*>& Enemy);

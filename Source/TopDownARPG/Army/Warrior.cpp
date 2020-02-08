@@ -1,5 +1,8 @@
 #include "Warrior.h"
+#include "Components/CapsuleComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "StrategyComponent.h"
+#include "Army.h"
 #include "WarriorAbility.h"
 
 AWarrior::AWarrior()
@@ -7,16 +10,18 @@ AWarrior::AWarrior()
 	PrimaryActorTick.bCanEverTick = false;
 }
 
-// Sets default values
 AWarrior::AWarrior(WarriorClass Class)
 {
-	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 	this->Class = Class;
+	
+	UCapsuleComponent* Capsule = GetCapsuleComponent();
+	Capsule->InitCapsuleSize(42.f, 96.0f);
+	Capsule->SetCollisionResponseToChannel(ECollisionChannel::ECC_Visibility, ECollisionResponse::ECR_Block);
 
+	Capsule->SetupAttachment(RootComponent);
 }
 
-// Called when the game starts or when spawned
 void AWarrior::BeginPlay()
 {
 	Super::BeginPlay();
@@ -29,11 +34,17 @@ void AWarrior::BeginPlay()
 
 bool AWarrior::AreFriends(const AWarrior* Other) const
 {
-	return GetOuter() == Other->GetOuter();
+	return this->Army == Other->Army;
 }
 
-// Called to bind functionality to input
-void AWarrior::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+void AWarrior::SetCurrentTarget(AWarrior* Target)
 {
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	bIsNewTarget = true;
+	CurrentTarget = Target;
+}
+
+AWarrior* AWarrior::GetCurrentTarget()
+{
+	bIsNewTarget = false; 
+return this->CurrentTarget;
 }

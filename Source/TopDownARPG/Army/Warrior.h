@@ -43,24 +43,44 @@ public:
 
 #pragma endregion
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Army")
+	float Health = 100.f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Army")
+	float MaxHealth = 100.f;
+
+	// Rage, Mana, Energy etc
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Army")
+	float Resource = 100.f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Army")
+	float MaxResource = 100.f;
+
 	UPROPERTY(EditAnywhere, Category = "Army")
 	TArray<TSubclassOf<UWarriorAbility>> WarriorAbilityTemplates;
 
 	UPROPERTY(VisibleAnywhere, Category = "Army")
 	TArray<UWarriorAbility*> WarriorAbilityInstances;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Army")
-	class UStrategyComponent* Strategy;
+	UFUNCTION(BlueprintCallable)
+	void SetCurrentTarget(AWarrior* Target);
 
 	UFUNCTION(BlueprintCallable)
-	void SetCurrentTarget(AWarrior* Target) { CurrentTarget = Target; }
+	AWarrior* GetCurrentTarget();
 
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	bool HasNewTarget() const { return bIsNewTarget; }
+
+	class AArmy* Army;
+
+	//// Called to bind functionality to input
+	//virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+private:
 	AWarrior* CurrentTarget = nullptr;
+
+	bool bIsNewTarget = false;
 };

@@ -17,11 +17,14 @@ public:
 	UPROPERTY(EditAnywhere)
 	float CooldownTime = 2.f;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Army")
+	float ResourceNeeded = 100.f;
+
 	UFUNCTION(BlueprintCallable)
 	virtual bool Activate(class AWarrior* Target);
 
 	UFUNCTION(BlueprintImplementableEvent)
-	bool OnActivateBlueprint(AWarrior* Target);
+	bool OnActivateBlueprint(AWarrior* Owner);
 
 	UFUNCTION(BlueprintCallable)
 	bool IsOffCooldown() const { return bIsOffCooldown; }

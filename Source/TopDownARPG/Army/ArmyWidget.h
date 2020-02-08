@@ -4,18 +4,22 @@
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
-#include "LeaderController.h"
 #include "ArmyController.h"
-// #include "ArmyWidget.generated.h"
+#include "ArmyWidget.generated.h"
 
 /**
  * 
  */
-//UCLASS(Blueprintable)
-//class TOPDOWNARPG_API UArmyWidget : public UUserWidget
-//{
-//	GENERATED_BODY()
-//public:
-//	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Army")
-//	TSubclassOf<AArmyController> ArmyController;
-//};
+UCLASS(Blueprintable)
+class TOPDOWNARPG_API UArmyWidget : public UUserWidget
+{
+	GENERATED_BODY()
+public:
+	// Call on button click or something idk
+	UFUNCTION(BlueprintCallable)
+	void SetCurrentTarget();
+
+	UFUNCTION(BlueprintCallable)
+	void SetNewStrategy();
+
+};
